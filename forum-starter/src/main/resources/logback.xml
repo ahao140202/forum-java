@@ -77,7 +77,8 @@
         <appender-ref ref="error"/>
     </logger>
 
-    <root level="info">
+<!--    <root level="info">-->
+    <root level="debug">
         <appender-ref ref="error"/>
         <appender-ref ref="stdout"/>
         <appender-ref ref="forum-java"/>
